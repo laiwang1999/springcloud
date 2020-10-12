@@ -12,7 +12,7 @@ import java.util.List;
 @FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT")
 public interface DeptClientService {
     @GetMapping("/dept/get/{id}")
-    Dept queryById(@PathVariable Long id);
+    Dept queryById(@PathVariable("id") Long id);
 
     @GetMapping("/dept/get")
     List<Dept> queryAll();

@@ -74,3 +74,19 @@ LB(Load Balance):负载均衡
 ![image-20201012130517974](https://gitee.com/yang_jian_white/test-picgo/raw/master/image-20201012130517974.png)
 
 # Feign
+
+# Hystrix
+
+对雪崩产生的链路保护机制
+
+注解@HystrixCommand,5s内20次调用失败就会启动熔断机制
+
+Hystrix 供分布式系统使用，提供延迟和容错功能，隔离远程系统、访问和第三方程序库的访问点，防止级联失败，保证复杂的分布系统在面临不可避免的失败时，仍能有其弹性。
+
+能干嘛：
+
+- 服务降级
+- 服务熔断
+- 服务限流
+- 接近实时的监控
+- …

@@ -72,3 +72,5 @@ LB(Load Balance):负载均衡
 ## 自定义负载均衡算法
 
 ![image-20201012130517974](https://gitee.com/yang_jian_white/test-picgo/raw/master/image-20201012130517974.png)
+
+# Feign

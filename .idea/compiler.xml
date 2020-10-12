@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01-springcloud-api" />
         <module name="02-springcloud-provider-dept-8001" />
+        <module name="09-springcloud-consumer-dept-feign" />
         <module name="07-springcloud-provider-dept-8002" />
         <module name="08-springcloud-provider-dept-8003" />
         <module name="04-springcloud-eureka-7001" />
